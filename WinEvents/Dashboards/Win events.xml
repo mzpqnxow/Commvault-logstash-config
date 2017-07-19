@@ -1,0 +1,624 @@
+<CustomReport>
+  <report>
+    <customReportName>Win events</customReportName>
+  </report>
+  <pages>
+    <Page>
+      <pageName>Sysmon</pageName>
+      <isDefault>true</isDefault>
+      <pageTitle>
+        <text>Page1</text>
+      </pageTitle>
+      <dataSets>
+        <dataSet>
+          <DataSet>
+            <dataSet>
+              <dataSetName>winevents</dataSetName>
+              <dataSetGuid>acaf81d0-8375-49f1-ab9f-fdfcf78e28a8</dataSetGuid>
+            </dataSet>
+            <endpoint>DATACUBE</endpoint>
+            <shared>false</shared>
+            <dataSources/>
+            <allColumns>false</allColumns>
+            <fields/>
+            <GetOperation>
+              <parameters/>
+              <sqlText></sqlText>
+              <timeout>5</timeout>
+            </GetOperation>
+            <description></description>
+            <queryPlan>
+              <offline>false</offline>
+              <retentionDays>7</retentionDays>
+              <versions>
+                <CommCellVersion>ALL</CommCellVersion>
+              </versions>
+            </queryPlan>
+            <version>6</version>
+            <guid>707d66ba-62cc-4537-aa5c-3c314a1777bb</guid>
+            <revision></revision>
+            <dCubeDataSet>
+              <dsId>9</dsId>
+              <dsName>winevents</dsName>
+              <dsType>blank</dsType>
+              <dsHandler>
+                <handlerId>13</handlerId>
+                <handlerName>default</handlerName>
+              </dsHandler>
+            </dCubeDataSet>
+          </DataSet>
+        </dataSet>
+      </dataSets>
+      <inputs/>
+      <header/>
+      <body>{
+    &quot;reportComponents&quot;: [
+        {
+            &quot;type&quot;: &quot;DATE_RANGE&quot;,
+            &quot;dataSet&quot;: {
+                &quot;dataSetName&quot;: &quot;winevents&quot;,
+                &quot;originalDataSetName&quot;: &quot;&quot;,
+                &quot;dataSetId&quot;: 0,
+                &quot;dataSetGuid&quot;: &quot;acaf81d0-8375-49f1-ab9f-fdfcf78e28a8&quot;
+            },
+            &quot;title&quot;: {
+                &quot;text&quot;: &quot;Time Range&quot;
+            },
+            &quot;id&quot;: &quot;DateRange0&quot;,
+            &quot;filters&quot;: {
+                &quot;builder&quot;: {},
+                &quot;viewer&quot;: {}
+            },
+            &quot;rangeType&quot;: &quot;absolute&quot;,
+            &quot;dateRange&quot;: {
+                &quot;absolute&quot;: {
+                    &quot;from&quot;: &quot;&quot;,
+                    &quot;to&quot;: &quot;&quot;
+                },
+                &quot;relative&quot;: &quot;&quot;
+            },
+            &quot;relativeTimes&quot;: &quot;15m,1h,12h,24h,7d,1M,1y&quot;,
+            &quot;dateRangeField&quot;: &quot;logTime&quot;,
+            &quot;dateRangeType&quot;: &quot;TimeStamp&quot;
+        },
+        {
+            &quot;type&quot;: &quot;FACET&quot;,
+            &quot;dataSet&quot;: {},
+            &quot;title&quot;: {
+                &quot;text&quot;: &quot;Filters&quot;
+            },
+            &quot;id&quot;: &quot;Facet1&quot;,
+            &quot;allColumns&quot;: false,
+            &quot;filters&quot;: {
+                &quot;builder&quot;: {},
+                &quot;viewer&quot;: {}
+            },
+            &quot;filterDataField&quot;: {
+                &quot;builder&quot;: {},
+                &quot;viewer&quot;: {
+                    &quot;winevents&quot;: {
+                        &quot;fields&quot;: [
+                            {
+                                &quot;displayName&quot;: &quot;beat_hostname&quot;,
+                                &quot;column&quot;: &quot;beat_hostname&quot;,
+                                &quot;numPointsToDisplay&quot;: {
+                                    &quot;includeAll&quot;: false,
+                                    &quot;maxPoints&quot;: 15
+                                },
+                                &quot;aggrTypes&quot;: [
+                                    &quot;Count&quot;
+                                ],
+                                &quot;showNumberOps&quot;: false,
+                                &quot;aggrType&quot;: &quot;Count&quot;
+                            }
+                        ],
+                        &quot;groups&quot;: []
+                    }
+                }
+            },
+            &quot;hideHeader&quot;: true,
+            &quot;hideborder&quot;: true,
+            &quot;orientation&quot;: &quot;horizontal&quot;
+        },
+        {
+            &quot;type&quot;: &quot;SEARCH_BAR&quot;,
+            &quot;dataSet&quot;: {
+                &quot;dataSetName&quot;: &quot;winevents&quot;,
+                &quot;originalDataSetName&quot;: &quot;&quot;,
+                &quot;dataSetId&quot;: 0,
+                &quot;dataSetGuid&quot;: &quot;acaf81d0-8375-49f1-ab9f-fdfcf78e28a8&quot;
+            },
+            &quot;title&quot;: {
+                &quot;text&quot;: &quot;Searches&quot;
+            },
+            &quot;id&quot;: &quot;SearchBar2&quot;,
+            &quot;filters&quot;: {
+                &quot;builder&quot;: {},
+                &quot;viewer&quot;: {}
+            },
+            &quot;searchFields&quot;: [
+                {
+                    &quot;column&quot;: &quot;event_data_Image&quot;,
+                    &quot;displayName&quot;: &quot;event_data_Image&quot;,
+                    &quot;dataType&quot;: &quot;string&quot;,
+                    &quot;isSelected&quot;: false
+                },
+                {
+                    &quot;column&quot;: &quot;event_data_Hashes&quot;,
+                    &quot;displayName&quot;: &quot;event_data_Hashes&quot;,
+                    &quot;dataType&quot;: &quot;string&quot;,
+                    &quot;isSelected&quot;: true
+                }
+            ]
+        },
+        {
+            &quot;type&quot;: &quot;CHART&quot;,
+            &quot;dataSet&quot;: {
+                &quot;dataSetName&quot;: &quot;winevents&quot;,
+                &quot;originalDataSetName&quot;: &quot;&quot;,
+                &quot;dataSetId&quot;: 0,
+                &quot;dataSetGuid&quot;: &quot;acaf81d0-8375-49f1-ab9f-fdfcf78e28a8&quot;
+            },
+            &quot;title&quot;: {
+                &quot;text&quot;: &quot;Most common processes launched in the given time.&quot;
+            },
+            &quot;id&quot;: &quot;Chart_1500286016449&quot;,
+            &quot;chartType&quot;: &quot;Pie&quot;,
+            &quot;isDateTime&quot;: false,
+            &quot;xAxisTitle&quot;: {
+                &quot;text&quot;: &quot;event_data_Image&quot;
+            },
+            &quot;yAxisTitle&quot;: {
+                &quot;text&quot;: &quot;event_data_Image Count &quot;
+            },
+            &quot;barWidthAutoOnly&quot;: false,
+            &quot;dataSeries&quot;: [],
+            &quot;isGrouped&quot;: false,
+            &quot;styles&quot;: {
+                &quot;defaultChartHeight&quot;: 350,
+                &quot;defaultChartWidth&quot;: 1000,
+                &quot;height&quot;: 350,
+                &quot;width&quot;: 1000,
+                &quot;barColor&quot;: &quot;#00cee6&quot;,
+                &quot;chartPlotOptions&quot;: {
+                    &quot;isShowGridlines&quot;: true,
+                    &quot;isSmoothLines&quot;: false,
+                    &quot;isShowLineMarkers&quot;: true,
+                    &quot;autoConvertYValues&quot;: true,
+                    &quot;isShowLabels&quot;: false,
+                    &quot;legendPosition&quot;: &quot;right&quot;,
+                    &quot;isShowLegend&quot;: true
+                },
+                &quot;barSizeAutoOnly&quot;: false
+            },
+            &quot;sorting&quot;: [
+                {
+                    &quot;direction&quot;: &quot;Desc&quot;,
+                    &quot;sortAxis&quot;: &quot;YAxis&quot;
+                }
+            ],
+            &quot;seriesFormatting&quot;: [],
+            &quot;filters&quot;: {
+                &quot;builder&quot;: {
+                    &quot;winevents&quot;: {
+                        &quot;event_id&quot;: {
+                            &quot;include&quot;: [
+                                1
+                            ],
+                            &quot;exclude&quot;: [],
+                            &quot;advancedFilters&quot;: []
+                        },
+                        &quot;event_data_Image&quot;: {
+                            &quot;include&quot;: [],
+                            &quot;exclude&quot;: [],
+                            &quot;advancedFilters&quot;: []
+                        }
+                    }
+                },
+                &quot;viewer&quot;: {}
+            },
+            &quot;orientation&quot;: &quot;vertical&quot;,
+            &quot;dimensionDataField&quot;: [
+                {
+                    &quot;column&quot;: &quot;event_data_Image&quot;,
+                    &quot;title&quot;: {
+                        &quot;text&quot;: &quot;event_data_Image&quot;
+                    },
+                    &quot;sortOrder&quot;: &quot;NONE&quot;,
+                    &quot;isNumeric&quot;: false,
+                    &quot;customGroupsAvailable&quot;: false,
+                    &quot;numPointsToDisplay&quot;: {
+                        &quot;maxPoints&quot;: 15,
+                        &quot;includeAll&quot;: false
+                    }
+                }
+            ],
+            &quot;measureDataField&quot;: [
+                {
+                    &quot;column&quot;: &quot;event_data_Image&quot;,
+                    &quot;title&quot;: {
+                        &quot;text&quot;: &quot;event_data_Image&quot;
+                    },
+                    &quot;aggrType&quot;: &quot;Count&quot;,
+                    &quot;sortOrder&quot;: &quot;DESC&quot;,
+                    &quot;showNumberOps&quot;: false
+                }
+            ],
+            &quot;multiBars&quot;: false,
+            &quot;isGroupBy&quot;: true
+        },
+        {
+            &quot;type&quot;: &quot;KENDO_GRID&quot;,
+            &quot;dataSet&quot;: {
+                &quot;dataSetName&quot;: &quot;winevents&quot;,
+                &quot;originalDataSetName&quot;: &quot;&quot;,
+                &quot;dataSetId&quot;: 0,
+                &quot;dataSetGuid&quot;: &quot;acaf81d0-8375-49f1-ab9f-fdfcf78e28a8&quot;
+            },
+            &quot;title&quot;: {
+                &quot;text&quot;: &quot;Sysmon events.&quot;
+            },
+            &quot;id&quot;: &quot;DataGrid_4&quot;,
+            &quot;pageSize&quot;: 20,
+            &quot;columns&quot;: [
+                {
+                    &quot;dataField&quot;: &quot;event_id&quot;,
+                    &quot;displayName&quot;: &quot;event_id&quot;,
+                    &quot;id&quot;: &quot;event_id&quot;,
+                    &quot;type&quot;: &quot;Long&quot;,
+                    &quot;origType&quot;: &quot;long&quot;,
+                    &quot;visible&quot;: true,
+                    &quot;hidden&quot;: false,
+                    &quot;aggrType&quot;: &quot;None&quot;,
+                    &quot;componentId&quot;: &quot;DataGrid_4&quot;
+                },
+                {
+                    &quot;dataField&quot;: &quot;event_data_Hashes&quot;,
+                    &quot;displayName&quot;: &quot;event_data_Hashes&quot;,
+                    &quot;id&quot;: &quot;event_data_Hashes&quot;,
+                    &quot;type&quot;: &quot;string&quot;,
+                    &quot;origType&quot;: &quot;string&quot;,
+                    &quot;visible&quot;: true,
+                    &quot;hidden&quot;: false,
+                    &quot;aggrType&quot;: &quot;None&quot;,
+                    &quot;componentId&quot;: &quot;DataGrid_4&quot;
+                },
+                {
+                    &quot;dataField&quot;: &quot;event_data_Image&quot;,
+                    &quot;displayName&quot;: &quot;event_data_Image&quot;,
+                    &quot;id&quot;: &quot;event_data_Image&quot;,
+                    &quot;type&quot;: &quot;string&quot;,
+                    &quot;origType&quot;: &quot;string&quot;,
+                    &quot;visible&quot;: true,
+                    &quot;hidden&quot;: false,
+                    &quot;aggrType&quot;: &quot;None&quot;,
+                    &quot;componentId&quot;: &quot;DataGrid_4&quot;
+                },
+                {
+                    &quot;dataField&quot;: &quot;log_name&quot;,
+                    &quot;displayName&quot;: &quot;log_name&quot;,
+                    &quot;id&quot;: &quot;log_name&quot;,
+                    &quot;type&quot;: &quot;string&quot;,
+                    &quot;origType&quot;: &quot;string&quot;,
+                    &quot;visible&quot;: true,
+                    &quot;hidden&quot;: false,
+                    &quot;aggrType&quot;: &quot;None&quot;,
+                    &quot;componentId&quot;: &quot;DataGrid_4&quot;
+                },
+                {
+                    &quot;dataField&quot;: &quot;logTime&quot;,
+                    &quot;displayName&quot;: &quot;logTime&quot;,
+                    &quot;id&quot;: &quot;logTime&quot;,
+                    &quot;type&quot;: &quot;TimeStamp&quot;,
+                    &quot;origType&quot;: &quot;epoch&quot;,
+                    &quot;visible&quot;: true,
+                    &quot;hidden&quot;: false,
+                    &quot;aggrType&quot;: &quot;None&quot;,
+                    &quot;componentId&quot;: &quot;DataGrid_4&quot;
+                },
+                {
+                    &quot;dataField&quot;: &quot;event_data_TargetFilename&quot;,
+                    &quot;displayName&quot;: &quot;event_data_TargetFilename&quot;,
+                    &quot;id&quot;: &quot;event_data_TargetFilename&quot;,
+                    &quot;type&quot;: &quot;string&quot;,
+                    &quot;origType&quot;: &quot;string&quot;,
+                    &quot;visible&quot;: true,
+                    &quot;hidden&quot;: false,
+                    &quot;aggrType&quot;: &quot;None&quot;,
+                    &quot;componentId&quot;: &quot;DataGrid_4&quot;
+                },
+                {
+                    &quot;dataField&quot;: &quot;message&quot;,
+                    &quot;displayName&quot;: &quot;message&quot;,
+                    &quot;id&quot;: &quot;message&quot;,
+                    &quot;type&quot;: &quot;string&quot;,
+                    &quot;origType&quot;: &quot;string&quot;,
+                    &quot;visible&quot;: true,
+                    &quot;hidden&quot;: false,
+                    &quot;aggrType&quot;: &quot;None&quot;,
+                    &quot;componentId&quot;: &quot;DataGrid_4&quot;
+                },
+                {
+                    &quot;dataField&quot;: &quot;event_data_ProcessGuid&quot;,
+                    &quot;displayName&quot;: &quot;event_data_ProcessGuid&quot;,
+                    &quot;id&quot;: &quot;event_data_ProcessGuid&quot;,
+                    &quot;type&quot;: &quot;string&quot;,
+                    &quot;origType&quot;: &quot;string&quot;,
+                    &quot;visible&quot;: true,
+                    &quot;hidden&quot;: false,
+                    &quot;aggrType&quot;: &quot;None&quot;,
+                    &quot;componentId&quot;: &quot;DataGrid_4&quot;
+                }
+            ],
+            &quot;allColumns&quot;: false,
+            &quot;filters&quot;: [],
+            &quot;sorting&quot;: [],
+            &quot;kendoAggregates&quot;: [],
+            &quot;styles&quot;: {
+                &quot;chartPlotOptions&quot;: {
+                    &quot;isShowGridlines&quot;: true,
+                    &quot;isSmoothLines&quot;: false,
+                    &quot;isShowLineMarkers&quot;: true,
+                    &quot;autoConvertYValues&quot;: true,
+                    &quot;isShowLabels&quot;: false,
+                    &quot;legendPosition&quot;: &quot;right&quot;
+                }
+            },
+            &quot;pageOffset&quot;: 0,
+            &quot;group&quot;: [
+                {
+                    &quot;field&quot;: &quot;event_id&quot;,
+                    &quot;dir&quot;: &quot;asc&quot;,
+                    &quot;aggregates&quot;: [
+                        {
+                            &quot;field&quot;: &quot;event_id&quot;,
+                            &quot;aggregate&quot;: &quot;count&quot;
+                        }
+                    ]
+                }
+            ],
+            &quot;groupDimensions&quot;: [
+                {
+                    &quot;column&quot;: &quot;event_id&quot;,
+                    &quot;numPointsToDisplay&quot;: {
+                        &quot;maxPoints&quot;: 20,
+                        &quot;offset&quot;: 0
+                    },
+                    &quot;sortDirection&quot;: &quot;asc&quot;
+                }
+            ],
+            &quot;groupMeasures&quot;: [
+                {
+                    &quot;column&quot;: &quot;event_id&quot;,
+                    &quot;aggrType&quot;: &quot;Count&quot;
+                }
+            ],
+            &quot;additionalProperties&quot;: false
+        }
+    ],
+    &quot;filters&quot;: {
+        &quot;builder&quot;: {},
+        &quot;viewer&quot;: {
+            &quot;winevents&quot;: {
+                &quot;event_data_Image&quot;: {
+                    &quot;include&quot;: [],
+                    &quot;exclude&quot;: [],
+                    &quot;advancedFilters&quot;: [],
+                    &quot;searchQuery&quot;: &quot;&quot;
+                },
+                &quot;event_data_Hashes&quot;: {
+                    &quot;include&quot;: [],
+                    &quot;exclude&quot;: [],
+                    &quot;advancedFilters&quot;: [],
+                    &quot;searchQuery&quot;: &quot;&quot;
+                }
+            }
+        }
+    },
+    &quot;autoRefreshTime&quot;: 10,
+    &quot;reportLayout&quot;: {
+        &quot;gridsterOpts&quot;: {
+            &quot;columns&quot;: 12
+        },
+        &quot;DateRange0&quot;: {
+            &quot;mobile&quot;: {
+                &quot;size&quot;: {
+                    &quot;x&quot;: 4,
+                    &quot;y&quot;: 8
+                },
+                &quot;position&quot;: [
+                    0,
+                    0
+                ]
+            },
+            &quot;tablet&quot;: {
+                &quot;size&quot;: {
+                    &quot;x&quot;: 4,
+                    &quot;y&quot;: 8
+                },
+                &quot;position&quot;: [
+                    0,
+                    0
+                ]
+            },
+            &quot;desktop&quot;: {
+                &quot;size&quot;: {
+                    &quot;x&quot;: 6,
+                    &quot;y&quot;: 3
+                },
+                &quot;position&quot;: [
+                    0,
+                    0
+                ]
+            }
+        },
+        &quot;Facet1&quot;: {
+            &quot;mobile&quot;: {
+                &quot;size&quot;: {
+                    &quot;x&quot;: 4,
+                    &quot;y&quot;: 8
+                },
+                &quot;position&quot;: [
+                    0,
+                    6
+                ]
+            },
+            &quot;tablet&quot;: {
+                &quot;size&quot;: {
+                    &quot;x&quot;: 4,
+                    &quot;y&quot;: 8
+                },
+                &quot;position&quot;: [
+                    0,
+                    6
+                ]
+            },
+            &quot;desktop&quot;: {
+                &quot;size&quot;: {
+                    &quot;x&quot;: 4,
+                    &quot;y&quot;: 8
+                },
+                &quot;position&quot;: [
+                    0,
+                    6
+                ]
+            }
+        },
+        &quot;SearchBar2&quot;: {
+            &quot;mobile&quot;: {
+                &quot;size&quot;: {
+                    &quot;x&quot;: 4,
+                    &quot;y&quot;: 8
+                },
+                &quot;position&quot;: [
+                    3,
+                    0
+                ]
+            },
+            &quot;tablet&quot;: {
+                &quot;size&quot;: {
+                    &quot;x&quot;: 4,
+                    &quot;y&quot;: 8
+                },
+                &quot;position&quot;: [
+                    3,
+                    0
+                ]
+            },
+            &quot;desktop&quot;: {
+                &quot;size&quot;: {
+                    &quot;x&quot;: 4,
+                    &quot;y&quot;: 2
+                },
+                &quot;position&quot;: [
+                    3,
+                    0
+                ]
+            }
+        },
+        &quot;Chart_1500286016449&quot;: {
+            &quot;mobile&quot;: {
+                &quot;size&quot;: {
+                    &quot;x&quot;: 4,
+                    &quot;y&quot;: 8
+                },
+                &quot;position&quot;: [
+                    5,
+                    0
+                ]
+            },
+            &quot;tablet&quot;: {
+                &quot;size&quot;: {
+                    &quot;x&quot;: 4,
+                    &quot;y&quot;: 8
+                },
+                &quot;position&quot;: [
+                    5,
+                    0
+                ]
+            },
+            &quot;desktop&quot;: {
+                &quot;size&quot;: {
+                    &quot;x&quot;: 6,
+                    &quot;y&quot;: 8
+                },
+                &quot;position&quot;: [
+                    5,
+                    0
+                ]
+            }
+        },
+        &quot;DataGrid_4&quot;: {
+            &quot;mobile&quot;: {
+                &quot;size&quot;: {
+                    &quot;x&quot;: 4,
+                    &quot;y&quot;: 8
+                },
+                &quot;position&quot;: [
+                    13,
+                    0
+                ]
+            },
+            &quot;tablet&quot;: {
+                &quot;size&quot;: {
+                    &quot;x&quot;: 4,
+                    &quot;y&quot;: 8
+                },
+                &quot;position&quot;: [
+                    13,
+                    0
+                ]
+            },
+            &quot;desktop&quot;: {
+                &quot;size&quot;: {
+                    &quot;x&quot;: 12,
+                    &quot;y&quot;: 17
+                },
+                &quot;position&quot;: [
+                    13,
+                    0
+                ]
+            }
+        }
+    },
+    &quot;autoRefresh&quot;: true,
+    &quot;isAutoRefreshShow&quot;: true
+}</body>
+      <footer/>
+    </Page>
+  </pages>
+  <reportVersion>6</reportVersion>
+  <deployedVersion>6</deployedVersion>
+  <reportDescription></reportDescription>
+  <guid>a703633d-c29c-4469-badf-a6cd7e39d546</guid>
+  <revision>$Revision:  $</revision>
+  <icon>vertical-bar.png</icon>
+  <hidden>false</hidden>
+  <visibleAll>false</visibleAll>
+  <readOnly>false</readOnly>
+  <engineVersion>1</engineVersion>
+  <builderVersion>2</builderVersion>
+  <translations>
+    <Translations>
+      <locale>default</locale>
+      <localeKey>RPT_TITLE</localeKey>
+      <localeValue>Win events</localeValue>
+    </Translations>
+    <Translations>
+      <locale>default</locale>
+      <localeKey>RPT_DESCRIPTION</localeKey>
+      <localeValue></localeValue>
+    </Translations>
+  </translations>
+  <cvTranslations/>
+  <minCommCellVersion>
+    <releaseID>16</releaseID>
+    <servicePack>0</servicePack>
+  </minCommCellVersion>
+  <maxCommCellVersion>
+    <releaseID>100</releaseID>
+    <servicePack>99</servicePack>
+  </maxCommCellVersion>
+  <userReportId>Win events</userReportId>
+  <uiTags/>
+</CustomReport>

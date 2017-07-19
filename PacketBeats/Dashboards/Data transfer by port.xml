@@ -1,0 +1,654 @@
+<CustomReport>
+  <report>
+    <customReportName>Data transfer by port</customReportName>
+  </report>
+  <pages>
+    <Page>
+      <pageName>Page0</pageName>
+      <isDefault>true</isDefault>
+      <pageTitle>
+        <text>Page0</text>
+      </pageTitle>
+      <dataSets>
+        <dataSet>
+          <DataSet>
+            <dataSet>
+              <dataSetName>packet</dataSetName>
+              <dataSetGuid>47307255-9c9d-44ba-b5f4-6ef02232e7e0</dataSetGuid>
+            </dataSet>
+            <endpoint>DATACUBE</endpoint>
+            <shared>false</shared>
+            <dataSources/>
+            <allColumns>false</allColumns>
+            <fields/>
+            <GetOperation>
+              <parameters/>
+              <sqlText></sqlText>
+              <timeout>5</timeout>
+            </GetOperation>
+            <description></description>
+            <queryPlan>
+              <offline>false</offline>
+              <retentionDays>7</retentionDays>
+              <versions>
+                <CommCellVersion>ALL</CommCellVersion>
+              </versions>
+            </queryPlan>
+            <version>17</version>
+            <guid>65cc9b88-6c64-4748-9287-681a2e2bbeaf</guid>
+            <revision></revision>
+            <dCubeDataSet>
+              <dsId>8</dsId>
+              <dsName>packet</dsName>
+              <dsType>blank</dsType>
+              <dsHandler>
+                <handlerId>5</handlerId>
+                <handlerName>default</handlerName>
+              </dsHandler>
+            </dCubeDataSet>
+          </DataSet>
+        </dataSet>
+      </dataSets>
+      <inputs/>
+      <body>{
+    &quot;reportComponents&quot;: [
+        {
+            &quot;type&quot;: &quot;CHART&quot;,
+            &quot;dataSet&quot;: {
+                &quot;dataSetName&quot;: &quot;packet&quot;,
+                &quot;originalDataSetName&quot;: &quot;&quot;,
+                &quot;dataSetId&quot;: 0,
+                &quot;dataSetGuid&quot;: &quot;47307255-9c9d-44ba-b5f4-6ef02232e7e0&quot;
+            },
+            &quot;title&quot;: {
+                &quot;text&quot;: &quot;Total data transfer by source port.&quot;
+            },
+            &quot;id&quot;: &quot;Chart_1500286082989&quot;,
+            &quot;chartType&quot;: &quot;TimeSeries&quot;,
+            &quot;isDateTime&quot;: true,
+            &quot;xAxisTitle&quot;: {
+                &quot;text&quot;: &quot;Time&quot;
+            },
+            &quot;yAxisTitle&quot;: {
+                &quot;text&quot;: &quot;source_stats_net_bytes_total Sum &quot;
+            },
+            &quot;barWidthAutoOnly&quot;: false,
+            &quot;dataSeries&quot;: [],
+            &quot;isGrouped&quot;: false,
+            &quot;styles&quot;: {
+                &quot;defaultChartHeight&quot;: 350,
+                &quot;defaultChartWidth&quot;: 1000,
+                &quot;height&quot;: 350,
+                &quot;width&quot;: 1000,
+                &quot;barColor&quot;: &quot;#00cee6&quot;,
+                &quot;chartPlotOptions&quot;: {
+                    &quot;isShowGridlines&quot;: false,
+                    &quot;isSmoothLines&quot;: false,
+                    &quot;isShowLineMarkers&quot;: true,
+                    &quot;autoConvertYValues&quot;: true,
+                    &quot;isShowLabels&quot;: true,
+                    &quot;legendPosition&quot;: &quot;right&quot;,
+                    &quot;isShowLegend&quot;: true,
+                    &quot;isShowArea&quot;: true
+                },
+                &quot;barSizeAutoOnly&quot;: false
+            },
+            &quot;sorting&quot;: [
+                {
+                    &quot;direction&quot;: &quot;Asc&quot;,
+                    &quot;sortAxis&quot;: &quot;XAxis&quot;
+                }
+            ],
+            &quot;seriesFormatting&quot;: [],
+            &quot;filters&quot;: {
+                &quot;builder&quot;: {
+                    &quot;packet&quot;: {
+                        &quot;source_port&quot;: {
+                            &quot;include&quot;: [],
+                            &quot;exclude&quot;: [],
+                            &quot;advancedFilters&quot;: []
+                        }
+                    }
+                },
+                &quot;viewer&quot;: {}
+            },
+            &quot;orientation&quot;: &quot;vertical&quot;,
+            &quot;dimensionDataField&quot;: [
+                {
+                    &quot;column&quot;: &quot;logTime&quot;,
+                    &quot;title&quot;: {
+                        &quot;text&quot;: &quot;logTime&quot;
+                    },
+                    &quot;sortOrder&quot;: &quot;NONE&quot;,
+                    &quot;isNumeric&quot;: false,
+                    &quot;customGroupsAvailable&quot;: false,
+                    &quot;numPointsToDisplay&quot;: {
+                        &quot;maxPoints&quot;: 15,
+                        &quot;includeAll&quot;: false
+                    },
+                    &quot;showTimeGrouping&quot;: true,
+                    &quot;showHourlyGrouping&quot;: true,
+                    &quot;onlyTimeInfo&quot;: {
+                        &quot;onlyTimeField&quot;: false,
+                        &quot;displayTimeInLocalTimeZone&quot;: false
+                    },
+                    &quot;timeGrouping&quot;: &quot;Hourly&quot;
+                },
+                {
+                    &quot;column&quot;: &quot;source_port&quot;,
+                    &quot;title&quot;: {
+                        &quot;text&quot;: &quot;source_port&quot;
+                    },
+                    &quot;sortOrder&quot;: &quot;NONE&quot;,
+                    &quot;isNumeric&quot;: false,
+                    &quot;customGroupsAvailable&quot;: false,
+                    &quot;numPointsToDisplay&quot;: {
+                        &quot;maxPoints&quot;: 10,
+                        &quot;includeAll&quot;: false
+                    }
+                }
+            ],
+            &quot;measureDataField&quot;: [
+                {
+                    &quot;column&quot;: &quot;source_stats_net_bytes_total&quot;,
+                    &quot;title&quot;: {
+                        &quot;text&quot;: &quot;source_stats_net_bytes_total&quot;
+                    },
+                    &quot;aggrType&quot;: &quot;Sum&quot;,
+                    &quot;sortOrder&quot;: &quot;DESC&quot;,
+                    &quot;showNumberOps&quot;: true,
+                    &quot;formatter&quot;: {
+                        &quot;type&quot;: &quot;size&quot;,
+                        &quot;booleanType&quot;: &quot;number&quot;,
+                        &quot;source&quot;: &quot;bytes&quot;,
+                        &quot;target&quot;: &quot;relative&quot;,
+                        &quot;fmt&quot;: &quot;comma&quot;,
+                        &quot;customformat&quot;: &quot;&quot;,
+                        &quot;tofixed&quot;: 2,
+                        &quot;customDateFormat&quot;: &quot;&quot;,
+                        &quot;targetWindow&quot;: &quot;_blank&quot;
+                    }
+                }
+            ],
+            &quot;multiBars&quot;: true,
+            &quot;isGroupBy&quot;: true,
+            &quot;rotateXAxisLabels&quot;: true,
+            &quot;rotateXAxisLabelsDegrees&quot;: -30,
+            &quot;includeMissingTimes&quot;: true,
+            &quot;disableInteractivity&quot;: false,
+            &quot;additionalProperties&quot;: false
+        },
+        {
+            &quot;type&quot;: &quot;SEARCH_BAR&quot;,
+            &quot;dataSet&quot;: {
+                &quot;dataSetName&quot;: &quot;packet&quot;,
+                &quot;originalDataSetName&quot;: &quot;&quot;,
+                &quot;dataSetId&quot;: 0,
+                &quot;dataSetGuid&quot;: &quot;47307255-9c9d-44ba-b5f4-6ef02232e7e0&quot;
+            },
+            &quot;title&quot;: {
+                &quot;text&quot;: &quot;Search traffic by port&quot;
+            },
+            &quot;id&quot;: &quot;SearchBar3&quot;,
+            &quot;filters&quot;: {
+                &quot;builder&quot;: {},
+                &quot;viewer&quot;: {}
+            },
+            &quot;searchFields&quot;: [
+                {
+                    &quot;column&quot;: &quot;ALL_FIELDS&quot;,
+                    &quot;displayName&quot;: &quot;ALL&quot;,
+                    &quot;isSelected&quot;: false
+                },
+                {
+                    &quot;column&quot;: &quot;source_port&quot;,
+                    &quot;displayName&quot;: &quot;source_port&quot;,
+                    &quot;dataType&quot;: &quot;string&quot;,
+                    &quot;isSelected&quot;: true
+                },
+                {
+                    &quot;column&quot;: &quot;dest_port&quot;,
+                    &quot;displayName&quot;: &quot;dest_port&quot;,
+                    &quot;dataType&quot;: &quot;string&quot;,
+                    &quot;isSelected&quot;: false
+                }
+            ]
+        },
+        {
+            &quot;type&quot;: &quot;CHART&quot;,
+            &quot;dataSet&quot;: {
+                &quot;dataSetName&quot;: &quot;packet&quot;,
+                &quot;originalDataSetName&quot;: &quot;&quot;,
+                &quot;dataSetId&quot;: 0,
+                &quot;dataSetGuid&quot;: &quot;47307255-9c9d-44ba-b5f4-6ef02232e7e0&quot;
+            },
+            &quot;title&quot;: {
+                &quot;text&quot;: &quot;Total data transfer by destination port.&quot;
+            },
+            &quot;id&quot;: &quot;Chart_1500286487180&quot;,
+            &quot;chartType&quot;: &quot;TimeSeries&quot;,
+            &quot;isDateTime&quot;: true,
+            &quot;xAxisTitle&quot;: {
+                &quot;text&quot;: &quot;logTime&quot;
+            },
+            &quot;yAxisTitle&quot;: {
+                &quot;text&quot;: &quot;Sum of net bytes trasnfered&quot;
+            },
+            &quot;barWidthAutoOnly&quot;: false,
+            &quot;dataSeries&quot;: [],
+            &quot;isGrouped&quot;: false,
+            &quot;styles&quot;: {
+                &quot;defaultChartHeight&quot;: 350,
+                &quot;defaultChartWidth&quot;: 1000,
+                &quot;height&quot;: 350,
+                &quot;width&quot;: 1000,
+                &quot;barColor&quot;: &quot;#00cee6&quot;,
+                &quot;chartPlotOptions&quot;: {
+                    &quot;isShowGridlines&quot;: false,
+                    &quot;isSmoothLines&quot;: false,
+                    &quot;isShowLineMarkers&quot;: true,
+                    &quot;autoConvertYValues&quot;: true,
+                    &quot;isShowLabels&quot;: true,
+                    &quot;legendPosition&quot;: &quot;right&quot;,
+                    &quot;isShowLegend&quot;: true
+                },
+                &quot;barSizeAutoOnly&quot;: false
+            },
+            &quot;sorting&quot;: [
+                {
+                    &quot;direction&quot;: &quot;Asc&quot;,
+                    &quot;sortAxis&quot;: &quot;XAxis&quot;
+                }
+            ],
+            &quot;seriesFormatting&quot;: [],
+            &quot;filters&quot;: {
+                &quot;builder&quot;: {
+                    &quot;packet&quot;: {
+                        &quot;dest_port&quot;: {
+                            &quot;include&quot;: [],
+                            &quot;exclude&quot;: [],
+                            &quot;advancedFilters&quot;: []
+                        }
+                    }
+                },
+                &quot;viewer&quot;: {}
+            },
+            &quot;orientation&quot;: &quot;vertical&quot;,
+            &quot;dimensionDataField&quot;: [
+                {
+                    &quot;column&quot;: &quot;logTime&quot;,
+                    &quot;title&quot;: {
+                        &quot;text&quot;: &quot;logTime&quot;
+                    },
+                    &quot;sortOrder&quot;: &quot;NONE&quot;,
+                    &quot;isNumeric&quot;: false,
+                    &quot;customGroupsAvailable&quot;: false,
+                    &quot;numPointsToDisplay&quot;: {
+                        &quot;maxPoints&quot;: 15,
+                        &quot;includeAll&quot;: false
+                    },
+                    &quot;showTimeGrouping&quot;: true,
+                    &quot;showHourlyGrouping&quot;: true,
+                    &quot;timeGrouping&quot;: &quot;Hourly&quot;
+                },
+                {
+                    &quot;column&quot;: &quot;dest_port&quot;,
+                    &quot;title&quot;: {
+                        &quot;text&quot;: &quot;dest_port&quot;
+                    },
+                    &quot;sortOrder&quot;: &quot;NONE&quot;,
+                    &quot;isNumeric&quot;: false,
+                    &quot;customGroupsAvailable&quot;: false,
+                    &quot;numPointsToDisplay&quot;: {
+                        &quot;maxPoints&quot;: 10,
+                        &quot;includeAll&quot;: false
+                    }
+                }
+            ],
+            &quot;measureDataField&quot;: [
+                {
+                    &quot;column&quot;: &quot;dest_stats_net_bytes_total&quot;,
+                    &quot;title&quot;: {
+                        &quot;text&quot;: &quot;dest_stats_net_bytes_total&quot;
+                    },
+                    &quot;aggrType&quot;: &quot;Sum&quot;,
+                    &quot;sortOrder&quot;: &quot;DESC&quot;,
+                    &quot;showNumberOps&quot;: true,
+                    &quot;formatter&quot;: {
+                        &quot;type&quot;: &quot;size&quot;,
+                        &quot;booleanType&quot;: &quot;number&quot;,
+                        &quot;source&quot;: &quot;bytes&quot;,
+                        &quot;target&quot;: &quot;relative&quot;,
+                        &quot;fmt&quot;: &quot;comma&quot;,
+                        &quot;customformat&quot;: &quot;&quot;,
+                        &quot;tofixed&quot;: 2,
+                        &quot;customDateFormat&quot;: &quot;&quot;,
+                        &quot;targetWindow&quot;: &quot;_blank&quot;
+                    }
+                }
+            ],
+            &quot;multiBars&quot;: false,
+            &quot;isGroupBy&quot;: true,
+            &quot;additionalProperties&quot;: false,
+            &quot;rotateXAxisLabels&quot;: true,
+            &quot;rotateXAxisLabelsDegrees&quot;: -30,
+            &quot;includeMissingTimes&quot;: true
+        },
+        {
+            &quot;type&quot;: &quot;FACET&quot;,
+            &quot;dataSet&quot;: {},
+            &quot;title&quot;: {
+                &quot;text&quot;: &quot;Filter&quot;
+            },
+            &quot;id&quot;: &quot;Facet4&quot;,
+            &quot;allColumns&quot;: false,
+            &quot;filters&quot;: {
+                &quot;builder&quot;: {},
+                &quot;viewer&quot;: {}
+            },
+            &quot;filterDataField&quot;: {
+                &quot;builder&quot;: {},
+                &quot;viewer&quot;: {
+                    &quot;packet&quot;: {
+                        &quot;fields&quot;: [
+                            {
+                                &quot;displayName&quot;: &quot;Host&quot;,
+                                &quot;column&quot;: &quot;beat_hostname&quot;,
+                                &quot;numPointsToDisplay&quot;: {
+                                    &quot;includeAll&quot;: false,
+                                    &quot;maxPoints&quot;: 15
+                                },
+                                &quot;aggrTypes&quot;: [
+                                    &quot;Count&quot;,
+                                    &quot;CountDistinct&quot;
+                                ],
+                                &quot;showNumberOps&quot;: false,
+                                &quot;aggrType&quot;: &quot;CountDistinct&quot;
+                            },
+                            {
+                                &quot;displayName&quot;: &quot;transport&quot;,
+                                &quot;column&quot;: &quot;transport&quot;,
+                                &quot;numPointsToDisplay&quot;: {
+                                    &quot;includeAll&quot;: false,
+                                    &quot;maxPoints&quot;: 15
+                                },
+                                &quot;aggrTypes&quot;: [
+                                    &quot;Count&quot;
+                                ],
+                                &quot;showNumberOps&quot;: false,
+                                &quot;aggrType&quot;: &quot;Count&quot;
+                            }
+                        ],
+                        &quot;groups&quot;: []
+                    }
+                }
+            },
+            &quot;hideHeader&quot;: true,
+            &quot;hideborder&quot;: true,
+            &quot;orientation&quot;: &quot;horizontal&quot;
+        },
+        {
+            &quot;type&quot;: &quot;DATE_RANGE&quot;,
+            &quot;dataSet&quot;: {
+                &quot;dataSetId&quot;: 226,
+                &quot;dataSetName&quot;: &quot;packet&quot;,
+                &quot;dataSetGuid&quot;: &quot;47307255-9c9d-44ba-b5f4-6ef02232e7e0&quot;
+            },
+            &quot;title&quot;: {
+                &quot;text&quot;: &quot;Time Range&quot;
+            },
+            &quot;id&quot;: &quot;DateRange4&quot;,
+            &quot;filters&quot;: {
+                &quot;builder&quot;: {},
+                &quot;viewer&quot;: {}
+            },
+            &quot;rangeType&quot;: &quot;relative&quot;,
+            &quot;dateRange&quot;: {
+                &quot;absolute&quot;: {
+                    &quot;from&quot;: &quot;&quot;,
+                    &quot;to&quot;: &quot;&quot;
+                },
+                &quot;relative&quot;: &quot;&quot;
+            },
+            &quot;relativeTimes&quot;: &quot;15m,1h,12h,24h,7d,1M,1y&quot;,
+            &quot;dateRangeField&quot;: &quot;logTime&quot;,
+            &quot;dateRangeType&quot;: &quot;TimeStamp&quot;
+        }
+    ],
+    &quot;filters&quot;: {
+        &quot;builder&quot;: {},
+        &quot;viewer&quot;: {
+            &quot;packet&quot;: {
+                &quot;source_port&quot;: {
+                    &quot;include&quot;: [],
+                    &quot;exclude&quot;: [],
+                    &quot;advancedFilters&quot;: [],
+                    &quot;searchQuery&quot;: &quot;&quot;
+                },
+                &quot;dest_port&quot;: {
+                    &quot;include&quot;: [],
+                    &quot;exclude&quot;: [],
+                    &quot;advancedFilters&quot;: [],
+                    &quot;searchQuery&quot;: &quot;&quot;
+                },
+                &quot;type&quot;: {
+                    &quot;include&quot;: [
+                        &quot;flow&quot;
+                    ],
+                    &quot;exclude&quot;: []
+                },
+                &quot;transport&quot;: {
+                    &quot;include&quot;: [
+                        &quot;tcp&quot;
+                    ],
+                    &quot;exclude&quot;: []
+                }
+            }
+        }
+    },
+    &quot;autoRefreshTime&quot;: 60,
+    &quot;reportLayout&quot;: {
+        &quot;gridsterOpts&quot;: {
+            &quot;columns&quot;: 12
+        },
+        &quot;Chart_1500286082989&quot;: {
+            &quot;mobile&quot;: {
+                &quot;size&quot;: {
+                    &quot;x&quot;: 4,
+                    &quot;y&quot;: 8
+                },
+                &quot;position&quot;: [
+                    5,
+                    0
+                ]
+            },
+            &quot;tablet&quot;: {
+                &quot;size&quot;: {
+                    &quot;x&quot;: 4,
+                    &quot;y&quot;: 8
+                },
+                &quot;position&quot;: [
+                    5,
+                    0
+                ]
+            },
+            &quot;desktop&quot;: {
+                &quot;size&quot;: {
+                    &quot;x&quot;: 12,
+                    &quot;y&quot;: 8
+                },
+                &quot;position&quot;: [
+                    8,
+                    0
+                ]
+            }
+        },
+        &quot;SearchBar3&quot;: {
+            &quot;mobile&quot;: {
+                &quot;size&quot;: {
+                    &quot;x&quot;: 4,
+                    &quot;y&quot;: 8
+                },
+                &quot;position&quot;: [
+                    3,
+                    0
+                ]
+            },
+            &quot;tablet&quot;: {
+                &quot;size&quot;: {
+                    &quot;x&quot;: 4,
+                    &quot;y&quot;: 8
+                },
+                &quot;position&quot;: [
+                    3,
+                    0
+                ]
+            },
+            &quot;desktop&quot;: {
+                &quot;size&quot;: {
+                    &quot;x&quot;: 4,
+                    &quot;y&quot;: 2
+                },
+                &quot;position&quot;: [
+                    3,
+                    0
+                ]
+            }
+        },
+        &quot;Chart_1500286487180&quot;: {
+            &quot;mobile&quot;: {
+                &quot;size&quot;: {
+                    &quot;x&quot;: 4,
+                    &quot;y&quot;: 8
+                },
+                &quot;position&quot;: [
+                    13,
+                    0
+                ]
+            },
+            &quot;tablet&quot;: {
+                &quot;size&quot;: {
+                    &quot;x&quot;: 4,
+                    &quot;y&quot;: 8
+                },
+                &quot;position&quot;: [
+                    13,
+                    0
+                ]
+            },
+            &quot;desktop&quot;: {
+                &quot;size&quot;: {
+                    &quot;x&quot;: 12,
+                    &quot;y&quot;: 8
+                },
+                &quot;position&quot;: [
+                    16,
+                    0
+                ]
+            }
+        },
+        &quot;Facet4&quot;: {
+            &quot;mobile&quot;: {
+                &quot;size&quot;: {
+                    &quot;x&quot;: 4,
+                    &quot;y&quot;: 8
+                },
+                &quot;position&quot;: [
+                    0,
+                    6
+                ]
+            },
+            &quot;tablet&quot;: {
+                &quot;size&quot;: {
+                    &quot;x&quot;: 4,
+                    &quot;y&quot;: 8
+                },
+                &quot;position&quot;: [
+                    0,
+                    6
+                ]
+            },
+            &quot;desktop&quot;: {
+                &quot;size&quot;: {
+                    &quot;x&quot;: 4,
+                    &quot;y&quot;: 8
+                },
+                &quot;position&quot;: [
+                    0,
+                    6
+                ]
+            }
+        },
+        &quot;DateRange4&quot;: {
+            &quot;mobile&quot;: {
+                &quot;size&quot;: {
+                    &quot;x&quot;: 4,
+                    &quot;y&quot;: 8
+                },
+                &quot;position&quot;: [
+                    0,
+                    0
+                ]
+            },
+            &quot;tablet&quot;: {
+                &quot;size&quot;: {
+                    &quot;x&quot;: 4,
+                    &quot;y&quot;: 8
+                },
+                &quot;position&quot;: [
+                    0,
+                    0
+                ]
+            },
+            &quot;desktop&quot;: {
+                &quot;size&quot;: {
+                    &quot;x&quot;: 6,
+                    &quot;y&quot;: 3
+                },
+                &quot;position&quot;: [
+                    0,
+                    0
+                ]
+            }
+        }
+    },
+    &quot;autoRefresh&quot;: true,
+    &quot;isAutoRefreshShow&quot;: true
+}</body>
+    </Page>
+  </pages>
+  <reportVersion>17</reportVersion>
+  <deployedVersion>16</deployedVersion>
+  <reportDescription></reportDescription>
+  <guid>66314a94-5b3e-4c39-a0a5-94f15195ca63</guid>
+  <revision>$Revision:  $</revision>
+  <icon>vertical-bar.png</icon>
+  <hidden>false</hidden>
+  <visibleAll>false</visibleAll>
+  <readOnly>false</readOnly>
+  <engineVersion>1</engineVersion>
+  <builderVersion>2</builderVersion>
+  <translations>
+    <Translations>
+      <locale>default</locale>
+      <localeKey>RPT_TITLE</localeKey>
+      <localeValue>Data transfer by port</localeValue>
+    </Translations>
+    <Translations>
+      <locale>default</locale>
+      <localeKey>RPT_DESCRIPTION</localeKey>
+      <localeValue></localeValue>
+    </Translations>
+  </translations>
+  <cvTranslations/>
+  <minCommCellVersion>
+    <releaseID>16</releaseID>
+    <servicePack>0</servicePack>
+  </minCommCellVersion>
+  <maxCommCellVersion>
+    <releaseID>100</releaseID>
+    <servicePack>99</servicePack>
+  </maxCommCellVersion>
+  <userReportId>Data transfer by port</userReportId>
+  <uiTags/>
+</CustomReport>
