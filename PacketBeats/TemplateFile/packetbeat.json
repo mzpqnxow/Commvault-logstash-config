@@ -1,0 +1,2819 @@
+{
+  "pgsql_error_code": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "dest_port": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "amqp_message-count": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "client_geoip_location": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_result_keyspace": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_error_details_required": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "dns_additionals_ttl": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_result_prepared_resp_meta_flags": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "logTime": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "epoch",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_error_type": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_result_prepared_resp_meta_table": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "rpc_cred_gids": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_request_headers_version": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "last_time": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "date",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_error_details_alive": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_authentication_class": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "amqp_no-ack": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "boolean",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "mongodb_returnFieldsSelector": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "amqp_priority": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "nfs_status": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "icmp_response_type": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "nfs_minor_version": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "dns_additionals_class": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "memcache_response_opaque": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "dns_question_name": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "amqp_consumer-count": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_result_prepared_resp_meta_col_count": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "thrift_params": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "dest_mac": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "source_ipv6": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "flow_id": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "dns_additionals_count": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "dns_flags_truncated_response": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "boolean",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "mysql_error_code": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "client_ip": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "dns_answers_class": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "rpc_cred_uid": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "dest_outer_ip_location": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_event_schema_change_keyspace": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "mongodb_selector": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "icmp_request_message": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "memcache_response_type": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_result_schema_change_name": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "source_stats_net_packets_total": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "source_outer_ip_location": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "responsetime": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "icmp_request_type": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_result_rows_meta_flags": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "memcache_request_opaque": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "mysql_insert_id": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "amqp_exchange": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_error_details_received": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "memcache_request_delta": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "pgsql_error_severity": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "rpc_cred_stamp": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "beat_version": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_event_port": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "amqp_reply-longstring": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "resource": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_result_schema_change_target": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "proc": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "notes": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "memcache_response_version": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_result_rows_meta_paging_state": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "icmp_id": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "server": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "memcache_response_status": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "icmp_version": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_error_details_write_type": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "pgsql_iserror": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "boolean",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "release": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_result_prepared_req_meta_col_count": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_result_schema_change_object": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "dns_answers_type": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "amqp_exclusive": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "boolean",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_result_rows_meta_col_count": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "memcache_request_type": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "memcache_protocol_type": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "amqp_expiration": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "dns_opt_ext_rcode": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "source_stats_net_bytes_total": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "memcache_request_exptime": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "rpc_time_str": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_result_rows_num_rows": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_request_headers_length": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_result_prepared_resp_meta_keyspace": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "amqp_reply-code": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "memcache_response_cas_unique": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "mysql_affected_rows": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "dest_outer_ip": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "mongodb_update": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "query": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "dns_opt_udp_size": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "mongodb_query": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_error_details_num_failures": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "port": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "transport": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "mysql_num_fields": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "memcache_response_count_values": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "memcache_request_command": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "redis_return_value": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_error_details_stmt_id": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "dest_outer_ipv6": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "amqp_method-id": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_result_schema_change_change": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "memcache_response_opcode_value": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_result_prepared_resp_meta_paging_state": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "nfs_version": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "amqp_class-id": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "rpc_xid": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "dest_ipv6_location": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_error_code": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "method": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "pgsql_num_rows": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "amqp_content-type": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "source_ipv6_location": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "amqp_timestamp": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "beat_name": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_error_msg": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_request_query": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "tags": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "1",
+    "required": "0"
+  },
+  "dns_answers_data": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "amqp_auto-delete": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "boolean",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "mysql_error_message": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_result_prepared_resp_meta_pkey_columns": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "memcache_request_source_class": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "meta_cloud_provider": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "source_mac": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "client_port": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "http_response_body": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "pgsql_query": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "meta_cloud_region": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "source_outer_ip": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "dns_opt_do": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "boolean",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "memcache_request_automove": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "path": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "memcache_response_flags": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "mongodb_numberToReturn": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "amqp_content-encoding": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "source_ip_location": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_event_schema_change_name": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_result_rows_meta_keyspace": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_error_details_read_consistency": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "memcache_response_command": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "dns_opt_version": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "amqp_exchange-type": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_event_host": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "icmp_response_code": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_error_details_data_present": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "boolean",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "amqp_passive": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "boolean",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "meta_cloud_availability_zone": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "dns_question_etld_plus_one": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_result_schema_change_keyspace": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "client_proc": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "dns_answers_ttl": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "meta_cloud_machine_type": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "dest_ip": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_request_headers_op": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "memcache_request_opcode_value": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "memcache_request_opcode": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "rpc_cred_gid": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_result_prepared_req_meta_table": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_result_schema_change_table": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_warnings": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "mongodb_numberToSkip": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "connecttime": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "nfs_tag": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "dns_additionals_name": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "meta_cloud_project_id": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "memcache_response_status_code": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "amqp_queue": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_result_prepared_req_meta_keyspace": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "memcache_request_cas_unique": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "nfs_opcode": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_event_change": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "dest_ipv6": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "dest_stats_net_bytes_total": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "mongodb_fullCollectionName": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "dns_authorities_type": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_headers_flags": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "client_server": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "amqp_immediate": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "boolean",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "service": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_event_schema_change_args": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "bytes_in": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "memcache_response_value": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "memcache_request_count_values": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "amqp_correlation-id": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "source_outer_ipv6_location": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "dns_answers_name": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "dns_flags_recursion_available": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "boolean",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "dns_question_class": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "params": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "longstring",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "mongodb_numberReturned": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "amqp_no-local": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "boolean",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_result_prepared_req_meta_pkey_columns": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "type": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "amqp_type": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "direction": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_error_details_keyspace": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "amqp_routing-key": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "memcache_request_quiet": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "boolean",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "real_ip": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "mongodb_cursorId": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "mongodb_startingFrom": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cpu_time": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_request_headers_stream": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "dest_stats_net_packets_total": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_event_schema_change_table": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "amqp_message-id": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "outer_vlan": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "dns_flags_checking_disabled": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "boolean",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "amqp_no-wait": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "boolean",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "source_ip": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "rpc_call_size": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_error_details_function": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "memcache_request_flags": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "dns_answers_count": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "amqp_delivery-tag": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "meta_cloud_instance_id": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_error_details_arg_types": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_error_details_blockfor": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "loadtime": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "memcache_response_bytes": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "rpc_status": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "mysql_iserror": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "boolean",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "http_request_body": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "longstring",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "amqp_user-id": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_headers_op": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "final": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "dns_flags_recursion_desired": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "boolean",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "mysql_query": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "dns_authorities_class": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_result_rows_meta_table": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "dns_flags_authoritative": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "boolean",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "thrift_return_value": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_result_type": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "amqp_if-unused": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "boolean",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "memcache_request_bytes": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_result_prepared_req_meta_flags": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "amqp_redelivered": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "boolean",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "dns_authorities_count": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "memcache_request_sleep_us": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "amqp_if-empty": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "boolean",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "ip": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "memcache_request_raw_args": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "http_request_params": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "amqp_durable": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "boolean",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_event_type": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "amqp_reply-to": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "rpc_auth_flavor": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "amqp_mandatory": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "boolean",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "dns_id": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_result_rows_meta_pkey_columns": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "pgsql_num_fields": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_event_schema_change_change": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_error_details_table": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "memcache_response_opcode": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "icmp_request_code": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "amqp_consumer-tag": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "mongodb_error": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "dns_additionals_type": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "dns_question_type": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "memcache_request_vbucket": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_event_schema_change_target": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "amqp_delivery-mode": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_headers_length": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "dns_op_code": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "dest_outer_ipv6_location": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "memcache_request_line": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_headers_version": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "amqp_multiple": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "boolean",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_result_prepared_prepared_id": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "bytes_out": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_result_prepared_req_meta_paging_state": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "memcache_request_dest_class": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "thrift_service": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "start_time": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "date",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "pgsql_error_message": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "status": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "rpc_reply_size": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "memcache_request_initial": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "icmp_response_message": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "rpc_cred_machinename": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "vlan": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "dns_flags_authentic_data": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "boolean",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "connection_id": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_request_headers_flags": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "source_port": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "domloadtime": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_event_schema_change_object": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "response": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "longstring",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "mysql_num_rows": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "thrift_exceptions": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_headers_stream": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "http_response_code": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "redis_error": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "http_response_phrase": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "dest_ip_location": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "beat_hostname": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "dns_authorities_name": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "request": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "longstring",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "memcache_request_verbosity": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "client_service": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "memcache_request_noreply": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "boolean",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "memcache_response_error_msg": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "dns_response_code": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "dns_additionals_data": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "dnstime": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "amqp_app-id": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "cassandra_response_result_schema_change_args": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "source_outer_ipv6": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "string",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  },
+  "rpc_time": {
+    "stored": "1",
+    "autocomplete": "1",
+    "searchDefault": "1",
+    "type": "long",
+    "indexed": "1",
+    "multiValued": "0",
+    "required": "0"
+  }
+}
